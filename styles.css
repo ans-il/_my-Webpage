@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box !important;
+}
+
+body {
+  background-color: rgb(15, 15, 15);
+  
+  
+}
+
+.btn-hover-black:hover {
+  color: black !important;
+  background-color: red !important;
+  font-weight: 600;
+  border: none;
+}
+
+.btn-hover-white:hover {
+  color: white !important;
+  background-color: cyan !important;
+  font-weight: 600;
+  border: none;
+}
+
+.btn-outline-danger {
+  border: 2px solid red;
+ 
+}
+
+@media (max-width: 1200px) {
+  .name {
+    font-size: 40px !important;    
+  }
+  .img-fluid {
+    width: 20rem !important;
+    margin-top: 80px !important;
+  }
+}
+
+
+@media (max-width: 820px) {
+  .name {
+    font-size: 40px !important;    
+  }
+  .img-fluid {
+    width: 20rem !important;
+    margin-top: 30px !important;
+  }
+  .card {
+    width: 12rem !important;
+  }
+
+  .submit {
+    width: 100%;
+  }
+
+  #home {
+    padding-top: 2em !important;
+  }
+}
+
+.naver {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: rgb(24, 24, 24);
+  z-index: 1;
+}
+
+.mywork {
+  margin-top: 6rem; 
+  margin-bottom: 5rem;
+  font-family: Pirata one, sans-serif; 
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.pic {
+  width: 50rem;
+  border-radius: 250px;
+  margin-top: 60px;
+  margin-left: 60px;
+}
+
+
+.card {
+  margin-bottom: 3rem;
+}
+
+.getintouch {
+  font-family: Pirata one, sans-serif; 
+  font-size: 4em;   
+}
+
+#getintouch {
+  margin-top: 5em;
+}
+
+input::placeholder, textarea::placeholder {
+  color: gray !important;
+  
+}
