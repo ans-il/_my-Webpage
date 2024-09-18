@@ -1,11 +1,36 @@
-* {
-  box-sizing: border-box !important;
+*, ::after, ::before {
+  box-sizing: border-box;
 }
+
+html {
+  margin: 0 !important;
+}
+
+
 
 body {
   background-color: rgb(15, 15, 15);
   
   
+}
+
+.nav-header {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  background-color: rgb(24, 24, 24);
+  z-index: 1;
+}
+
+.nav-name {
+  font-family: Pirata One, sans-serif; 
+  font-weight: 400;
+  font-size: 2.5rem;
+}
+
+.name {
+  font-size: 6rem; 
+  font-family: Pirata One, sans-serif;
 }
 
 .btn-hover-black:hover {
@@ -23,8 +48,16 @@ body {
 }
 
 .btn-outline-danger {
-  border: 2px solid red;
- 
+  border: 2px solid red ;
+  
+}
+
+
+.footer {
+  background-color: rgb(24,24,24);
+  font-family: Pirata One, fantasy;
+  height: 4rem; 
+  width: 100vw; 
 }
 
 @media (max-width: 1200px) {
@@ -46,10 +79,7 @@ body {
     width: 20rem !important;
     margin-top: 30px !important;
   }
-  .card {
-    width: 12rem !important;
-  }
-
+  
   .submit {
     width: 100%;
   }
@@ -59,13 +89,7 @@ body {
   }
 }
 
-.naver {
-  width: 100%;
-  position: fixed;
-  top: 0;
-  background-color: rgb(24, 24, 24);
-  z-index: 1;
-}
+
 
 .mywork {
   margin-top: 6rem; 
@@ -76,15 +100,20 @@ body {
 }
 
 .pic {
-  width: 50rem;
-  border-radius: 250px;
+  display: flex;
+  justify-content: center;
+  width: 20rem;
+  border-radius: 250px;  
+  margin: auto;
   margin-top: 60px;
-  margin-left: 60px;
 }
 
 
 .card {
+  width: 16rem; 
+  height: 20rem;
   margin-bottom: 3rem;
+
 }
 
 .getintouch {
