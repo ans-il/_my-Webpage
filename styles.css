@@ -84,6 +84,13 @@ body {
     width: 100%;
   }
 
+  .homerow {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 6rem;
+   }
+
+  
   #home {
     padding-top: 2em !important;
   }
@@ -92,9 +99,10 @@ body {
 
 
 .mywork {
-  margin-top: 6rem; 
+  margin-top: 3rem; 
   margin-bottom: 5rem;
   font-family: Pirata one, sans-serif; 
+  font-size: 50px;
   letter-spacing: 2px;
   text-align: center;
 }
@@ -105,7 +113,7 @@ body {
   width: 20rem;
   border-radius: 250px;  
   margin: auto;
-  margin-top: 60px;
+  margin-top: 4rem;
 }
 
 
